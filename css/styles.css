@@ -1,0 +1,191 @@
+#title{
+    background-color: #06113C;
+    color: white;
+   
+   
+   
+}
+.bod{
+    
+font-family: "montserrat";
+}
+h1{
+   font-weight: 1000;
+    line-height: 1.5;
+    font-size: 4rem;
+    padding-bottom: 30px;
+    
+   
+}
+h2{
+font-family: "montserrat";
+font-size: 2.5rem;
+}
+.container-fluid{
+    padding: 1.5% 8% 8%;
+}
+.myrow{
+    margin-top: 0px;
+    
+}
+.apple-img{
+    position:relative;
+    right:8px;
+}
+.play-img{
+    position:relative;
+    right:8px;
+}
+.iphone-img{
+    transform: rotate(25deg);
+    height: 700px;
+    width: 350px;
+    position: absolute;
+    right: 20%;
+    
+}
+/* .buttons{
+    position: relative;
+    top: 50px;
+}*/
+ .button2{
+    margin-left: 10px;
+} 
+.navbar-brand{
+    font-family: "montserrat";
+    font-size: 1.5rem;
+   
+}
+.navbar{
+    padding:0 0 4.5rem;
+    
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-link{
+    font-family: "montserrat";
+    font-weight: 300;
+}
+.navbar-brand{
+    font-size: xx-large;
+}
+/*------------------------------- title section css ends --------------------------[*/
+#features{
+    
+     text-align: center;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background-color: #fff;
+     margin-top: 0px;
+     margin-bottom: 5px;
+     position: relative;
+     z-index: 1;
+}
+.feature-div{
+    padding: 3rem;
+  }
+  .features-image{
+    height: 70px;
+    width: 70px;
+    
+   
+}
+h3{font-family: "montserrat";
+    font-size: 1.5rem;
+  
+   
+}
+.feature-para{
+    color:#8f8f8f;
+    font-weight: 200;
+    
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    color: orange;
+}
+   
+/* testimonials */
+#testimonials{
+text-align: center;
+background-color: black;;
+color: #fff;
+
+}
+.testimonial-image{
+   border-radius: 100%;
+   height: 100px;
+   width: 100px;
+   margin-top: 25px;
+   margin-right: 20px;
+
+}
+/* press */
+#press{
+    background-color: #393E46;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.press-image{
+    margin: 20px;
+}
+/* carousel */
+.carousel-item{
+    padding: 7% 12%;
+    background-color: #252525;
+}
+.pricing-head{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+#pricing{
+    padding: 7% 8%;
+}
+.pricing-column{
+    padding: 2% 1.5%;
+    text-align: center;
+}
+@media (max-width:1050px) {
+    .iphone-img{
+        transform: rotate(0);
+        position:static;
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+    #title{
+        text-align: center;
+    }
+    .title-grid1{
+        text-align: center;
+    }
+    
+}
+  /* cta -------------------------------------- */
+#cta{
+    text-align: center;
+    font-family: "montserrat";
+   
+    background-color: #06113C;
+    padding: 5% 8%;
+}
+.cta-heading{
+    color: #fff;
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+/* footer--------------------------------------- */
+#footer{
+    text-align: center;
+    padding: 5% 7%;
+}
+.icon{
+    margin: 1%;
+}
+
+
+
+
